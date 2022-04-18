@@ -1,0 +1,56 @@
+.buttonStyle {
+    margin: 10px auto;
+    padding: 7px 10px;
+    border: 1px solid #efffff;
+    border-radius: 3px;
+    background: #3085d6;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+.buttonStyle:hover {
+    cursor: pointer;
+    border: 1px solid #3085d6;
+}
+
+.page {
+    text-align: center;
+}
+
+.formStyle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #c9c9c9;
+    border-radius: 5px;
+    background: #f7fdf8;
+    width: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.labelStyle {
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+
+.inputStyle {
+    margin: 10px auto 20px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+.inputStyle:focus { 
+    outline-color: #3085d6;
+}
